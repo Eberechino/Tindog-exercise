@@ -1,0 +1,216 @@
+.ml-auto, .ms-auto {
+    margin-left: auto;
+    }
+
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: grey;
+}
+
+.colored-section {
+  background-color: #f689ad;
+  color: #fff;
+}
+
+.white-section {
+ background-color: #fff;
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* Title */
+
+#title {
+  background-color: #D67494;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.3rem;
+font-weight: bold;
+}
+
+.nav-brand-creator {
+color: #C2A1BD;
+font-size: 1rem;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 45%;
+  transform: rotate(25deg);
+  margin-bottom: -35%;
+}
+
+.title-image-container {
+  position: relative;
+  left: 10%;
+}
+
+/* Features */
+
+#features {
+ padding: 7% 15%;
+ position: relative;
+ z-index: 1;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.fas {
+    color: #f689ad;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 4.5rem;
+    margin: 1rem;
+}
+
+.fas:hover {
+  color: #D67494;
+}
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 60px;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  padding-bottom: 10px;
+
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 10px 10px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.card-button {
+  display: block;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+/* Call to Action */
+
+#cta {
+  padding: 100px;
+}
+
+.download-button-cta {
+  margin: 30px 20px 70px 0;
+}
+
+#footer {
+  padding: 50px;
+}
+
+.fa {
+  padding: 0 7px 13px 10px;
+}
+
+/* Media */
+
+@media (min-width: 570px) and (max-width: 990px)  {
+
+  h1 {
+    font-size: 2rem;
+    padding: 30px;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-right: 150px;
+  }
+
+ .title-image-container {
+  margin: 30px 0 250px;
+}
+
+}
